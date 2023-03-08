@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Tick from "./Rendering"
 
-import Element from './Practice';
-// import Practice from '/.practice';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-     <Element/>
     <App/>
-  </div>
+    <Tick />
+    </div>
    
 
 );
