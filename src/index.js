@@ -1,16 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import Tick from "./Rendering"
-
+import Namelist from './lists';
+// import App from './App';
+// import Tick from "./Rendering"
+// import Welcome from './props';
+// import Message from './state';
+// import Namelist from './lists';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-    <App/>
-    <Tick />
+    {/* <App/>
+    <Tick /> */}
+    {/* <Message/> */}
+    {/* <Welcome/> */}
+    <Namelist/>
     </div>
    
 
