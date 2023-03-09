@@ -1,5 +1,5 @@
 // import react from 'react';
-import Person from '/.person'
+// import Person from '/.person'
 
 function Namelist(){
     const person=[
@@ -24,10 +24,18 @@ function Namelist(){
             skill:'everything'
         }
     ]
-    const personlist = person.map(person=> <Person key ={person.id} person ={person}/>);
+   const details = person.map((d)=>d)
 
-    return <div>
-       { personlist}
+   return (
+    <div>
+      {details.map((d) => (
+        <div key={d.id}> {d.id}   
+        <p>my name is {d.name} and my skill is {d.skill}</p> 
+          
+        </div>
+        
+      ))}
     </div>
+  );
 }
 export default Namelist

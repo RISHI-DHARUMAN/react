@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import Namelist from './lists';
-import Greeting from './conditional_Rendering';
+import Namelist from './lists';
+// import Greeting from './conditional_Rendering';
 // import App from './App';
 // import Tick from "./Rendering"
 // import Welcome from './props';
@@ -17,8 +17,8 @@ root.render(
     <Tick /> */}
     {/* <Message/> */}
     {/* <Welcome/> */}
-    {/* <Namelist/> */}
-    <Greeting/>
+    <Namelist/>
+    {/* <Greeting/> */}
     </div>
    
 
