@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Namelist from './lists';
+// import Namelist from './lists';
+import Greeting from './conditional_Rendering';
 // import App from './App';
 // import Tick from "./Rendering"
 // import Welcome from './props';
 // import Message from './state';
-// import Namelist from './lists';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,7 +17,8 @@ root.render(
     <Tick /> */}
     {/* <Message/> */}
     {/* <Welcome/> */}
-    <Namelist/>
+    {/* <Namelist/> */}
+    <Greeting/>
     </div>
    
 
