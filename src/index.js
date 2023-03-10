@@ -9,7 +9,8 @@ import './index.css';
 // import Message from './state';
 // import Form from './form';
 // import TotalCounter from './liftingStateUp';c
-import App from './form.js';
+// import App from './form.js';
+import Context from './Context';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,7 +24,8 @@ root.render(
     {/* <Greeting/> */}
     {/* {<Form/>} */}
     {/* <TotalCounter/> */}
-    <App/>
+    <Context/>
+    {/* <App/> */}
 
     </div>
    
