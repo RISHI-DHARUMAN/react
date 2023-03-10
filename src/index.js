@@ -10,7 +10,8 @@ import './index.css';
 // import Form from './form';
 // import TotalCounter from './liftingStateUp';c
 // import App from './form.js';
-import Context from './Context';
+// import Context from './Context';
+import ErrorHandeling from './Errorhandeling'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,7 +25,9 @@ root.render(
     {/* <Greeting/> */}
     {/* {<Form/>} */}
     {/* <TotalCounter/> */}
-    <Context/>
+    {/* <Context/> */}
+            <ErrorHandeling />
+
     {/* <App/> */}
 
     </div>
