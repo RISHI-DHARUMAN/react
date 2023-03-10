@@ -11,7 +11,8 @@ import './index.css';
 // import TotalCounter from './liftingStateUp';c
 // import App from './form.js';
 // import Context from './Context';
-import ErrorHandeling from './Errorhandeling'
+// import ErrorHandeling from './Errorhandeling'
+import ParentComponent from './ForwardingRefs';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -26,8 +27,8 @@ root.render(
     {/* {<Form/>} */}
     {/* <TotalCounter/> */}
     {/* <Context/> */}
-            <ErrorHandeling />
-
+            {/* <ErrorHandeling /> */}
+<ParentComponent/>
     {/* <App/> */}
 
     </div>
