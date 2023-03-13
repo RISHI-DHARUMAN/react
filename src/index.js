@@ -13,7 +13,8 @@ import './index.css';
 // import Context from './Context';
 // import ErrorHandeling from './Errorhandeling'
 // import ParentComponent from './ForwardingRefs';
-import Renderprops from './Renderprops';
+// import Renderprops from './Renderprops';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -30,7 +31,8 @@ root.render(
     {/* <Context/> */}
             {/* <ErrorHandeling /> */}
 {/* <ParentComponent/> */}
-<Renderprops/>
+{/* <Renderprops/> */}
+
 
     </div>
    
