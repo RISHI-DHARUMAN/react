@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import MyComponent from './RefsandDOM';
 // import Namelist from './lists';
 // import Greeting from './conditional_Rendering';
 // import App from './App';
@@ -32,7 +33,7 @@ root.render(
             {/* <ErrorHandeling /> */}
 {/* <ParentComponent/> */}
 {/* <Renderprops/> */}
-
+<MyComponent/>
 
     </div>
    
