@@ -12,7 +12,8 @@ import './index.css';
 // import App from './form.js';
 // import Context from './Context';
 // import ErrorHandeling from './Errorhandeling'
-import ParentComponent from './ForwardingRefs';
+// import ParentComponent from './ForwardingRefs';
+import Renderprops from './Renderprops';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -28,8 +29,8 @@ root.render(
     {/* <TotalCounter/> */}
     {/* <Context/> */}
             {/* <ErrorHandeling /> */}
-<ParentComponent/>
-    {/* <App/> */}
+{/* <ParentComponent/> */}
+<Renderprops/>
 
     </div>
    
